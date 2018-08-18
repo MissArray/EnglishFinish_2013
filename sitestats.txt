@@ -1,0 +1,5 @@
+<?
+$stats=fopen("sitestats.txt","a");
+fwrite($stats,"\n".getenv("REMOTE_ADDR").",".$_SERVER["SCRIPT_NAME"].",".date("D F j Y - g:i A \a\\n\d s \s\e\c\o\\n\d\s"));
+fclose($stats);
+?>
