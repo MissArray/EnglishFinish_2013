@@ -1,4 +1,5 @@
 /* white bullet: &#8226; */
+/* COMPUTER SCREENS*/
 
 body {
 	background-color: #AB3FFE;
@@ -184,6 +185,7 @@ h2 {
 	display: block;
 	width: 30px;
 	padding: 5px;
+	margin-right: 5px;
 	position: absolute;
 	top: calc(50% - 6px);
 	right: 0;
@@ -267,7 +269,8 @@ text-align: center;
 		margin: auto;
 	}
 	#td1, #td2, #td3, #td4, #td5, #td6, #td7, #td8, #td9 {
-		width: 98%;
+		min-width: 98%;
+		max-width: 98%;
 		height: 1.8rem;
 		font-size: 1rem;
 		text-align: center;
@@ -275,24 +278,52 @@ text-align: center;
 		padding-top: 10px;
 	}
 	
-	flex-container {
-		width: 95vw;
+	.grid-container {
+		display: flex;
+		flex-direction: column;
+		max-width: 95vw;
+		justify-content: center;
 	}
 	
-	#h1block1 {
-		width: 15vw;
+	#h2block1 {
+    height: 26px;
+	background-color: rgb(252,187, 63);
+	margin-bottom: 0.5vh;
+}
+
+#h2block2 {
+    height: 46px;
+	background-color: rgb(253,155, 53); 
+	text-align: center;
 	}
+
+	#block-left {
+		max-width: 2vh;
+		background-color: rgb(145, 45, 238);
+	 }
 	
-	#h1block2 {
-		width: 80vw;
-	}
 	.accordion {
-		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		max-width: 95vw;
 	}
 	
+	.accordion-item-heading {
+		justify-self: center;
+		padding: 0.5rem;
+		position: relative;
+		cursor: pointer;
+		font-size: 1.4rem;
+		font-weight: 600;
+	}
+
+	.accordion-item {
+		justify-self: center;
+	}
+
 	.contact-details {
-margin-right: 1rem;
-text-align: left;
+		margin-right: 1rem;
+		text-align: left;
 }
 	
 	footer {
