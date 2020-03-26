@@ -1,4 +1,5 @@
-# EnglishFinish_2013
+# EnglishFinish_2013 (decommissioned)
+## URL: www.englishfinish.co.uk
 ## The 2013 version of the website I created while freelancing as a copy-editor
 
 *English Finish* is the website I first created from scratch in 2006, while freelancing as a copy-editor. Learning web development was not an option due to time constraints, but I was intrigued by the possibility of designing and building a website from zero; using templates wasn't an option either, because I wanted it to look unique, as I envisaged in mock-ups.
